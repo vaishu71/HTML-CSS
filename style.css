@@ -7,6 +7,9 @@ body {
   font-weight: bold;
   font-size: 20px;
 }
+thead {
+  height: 20%;
+}
 .header {
   width: 100%;
   box-sizing: border-box;
@@ -16,6 +19,7 @@ body {
 .logo {
   width: 30%;
   color: rgb(37, 10, 10);
+  text-shadow: 2px 2px 5px rgb(85, 85, 80);
 }
 
 /*navigation menu*/
@@ -36,9 +40,11 @@ body {
   position: relative;
   top: 15px;
 }
+
 .nav a:hover {
   background-color: rgb(10, 115, 156);
 }
+
 /*dropdown*/
 
 .dropbtn {
@@ -56,7 +62,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 109px;
+  top: 90px;
   text-align: center;
   background: transparent;
   min-height: 130px;
@@ -92,6 +98,7 @@ tbody {
 }
 .content {
   width: 95%;
+
   margin: 0px auto 15px;
   background-color: white;
 }
@@ -149,15 +156,15 @@ tbody .preview-text {
   color: rgb(73, 71, 71);
 }
 .side-bar .side-content {
-  width: 75%;
+  width: 95%;
   border: 1px grey;
 
   margin: 15px 2px;
   border-radius: 0px 10px;
   box-shadow: 8px 8px 20px 0px rgba(20, 19, 19, 0.2);
-  padding: 3px 20px;
+  padding: 10px 20px;
   font-size: 18px;
-  line-height: 40px;
+  line-height: 50px;
 }
 .side-content tr:hover {
   background-color: #d1d2d4;
@@ -167,10 +174,11 @@ tbody .preview-text {
 .footer {
   width: 100%;
   text-align: center;
-  height: 26vh;
-  position: fixed;
-  margin-top: 0px;
-  line-height: 15px;
+  height: 21vh;
+  position: relative;
+  top: 250x;
+
+  line-height: 20px;
   background-color: rgb(54, 181, 231);
 }
 .footer a {
