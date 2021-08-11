@@ -207,7 +207,7 @@ tbody .preview-text {
   color: white;
 }
 .footer .About {
-  width: 65%;
+  width: 60%;
   position: relative;
   left: 5px;
   bottom: 0px;
@@ -217,22 +217,17 @@ tbody .preview-text {
 }
 
 .footer .quick-links {
-  width: 30%;
-  float: right;
   position: fixed;
-  right: 30px;
+  right: 450px;
   bottom: 5px;
-  top: 700px;
+  top: 710px;
   padding: 10px;
-  border-spacing: 5px;
 }
 
 .copyright-text {
   position: fixed;
   bottom: 2px;
   right: 2px;
-
   width: 400px;
   margin: 0;
-  float: right;
 }
