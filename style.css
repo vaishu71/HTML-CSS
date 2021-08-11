@@ -7,14 +7,12 @@ body {
   font-weight: bold;
   font-size: 20px;
 }
-thead {
-  height: 20%;
-}
+
 .header {
   width: 100%;
   box-sizing: border-box;
-
   background-color: rgb(54, 181, 231);
+  border: grey solid 1px;
 }
 .logo {
   width: 30%;
@@ -98,6 +96,7 @@ tbody {
 }
 .content {
   width: 95%;
+  height: auto;
 
   margin: 0px auto 15px;
   background-color: white;
@@ -172,16 +171,68 @@ tbody .preview-text {
 }
 
 .footer {
+  display: block;
   width: 100%;
-  text-align: center;
-  height: 21vh;
-  position: relative;
-  top: 250x;
-
+  height: 200px;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
   line-height: 20px;
   background-color: rgb(54, 181, 231);
+  font-size: 15px;
+  border: grey solid 1px;
+}
+.footer h6 {
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+.quick-links .title {
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .footer a {
   text-decoration: none;
+  color: rgb(65, 60, 60);
+}
+.footer p {
+  color: rgb(65, 60, 60);
+}
+.footer a:hover {
   color: white;
+}
+.footer .About {
+  width: 65%;
+  position: relative;
+  left: 5px;
+  bottom: 0px;
+  top: 30px;
+
+  text-align: justify;
+}
+
+.footer .quick-links {
+  width: 30%;
+  float: right;
+  position: fixed;
+  right: 30px;
+  bottom: 5px;
+  top: 700px;
+  padding: 10px;
+  border-spacing: 5px;
+}
+
+.copyright-text {
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+
+  width: 400px;
+  margin: 0;
+  float: right;
 }
