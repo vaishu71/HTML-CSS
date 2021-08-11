@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.header {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(54, 181, 231);
+  border: grey solid 1px;
+}
+.logo {
+  width: 30%;
+  color: rgb(37, 10, 10);
+  text-shadow: 2px 2px 5px rgb(85, 85, 80);
+}
+
+/*navigation menu*/
+
+.nav {
+  border-spacing: 30px 0px;
+  float: right;
+  margin-right: 30px;
+  overflow: hidden;
+}
+.nav a {
+  display: block;
+  color: white;
+  padding: 16px 20px;
+  text-decoration: none;
+  line-height: 15px;
+  border-radius: 4px;
+  position: relative;
+  top: 15px;
+}
+
+.nav a:hover {
+  background-color: rgb(10, 115, 156);
+}
+
+/*dropdown*/
+
+.dropbtn {
+  background-color: rgb(54, 181, 231);
+  color: white;
+  font-size: 20px;
+  padding: 10px 32px;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+}
+.dropdown {
+  float: left;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 90px;
+  text-align: center;
+  background: transparent;
+  min-height: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(14, 12, 12, 0.2);
+  color: white;
+  padding: 14px 16px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 10px 14px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  background-color: rgb(54, 181, 231);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(54, 181, 231);
+}
+/*dropdown*/
+tbody {
+  margin: 10px auto 10px;
+}
+.Recent {
+  width: 100%;
+  color: black;
+  padding: 20px;
+  line-height: 5px;
+}
+.content {
+  width: 95%;
+  height: auto;
+
+  margin: 0px auto 15px;
+  background-color: white;
+}
+
+.post-preview {
+  width: 66.5%;
+  float: left;
+}
+.post {
+  width: 250px;
+  height: 420px;
+  display: block;
+  float: left;
+  color: gray;
+  border: 1px rgb(163, 162, 162);
+  font-size: 16px;
+  background: whitesmoke;
+  padding: 5px;
+  margin: 10px 22px;
+  border-radius: 0 10px 0 15px;
+  box-shadow: 8px 8px 20px 0px rgba(20, 19, 19, 0.2);
+}
+.post-preview a {
+  text-decoration: none;
+  color: black;
+}
+.post-preview a:hover {
+  text-decoration: 2px solid underline;
+  color: rgb(91, 91, 161);
+}
+img {
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 20px 0px rgba(20, 19, 19, 0.2);
+}
+tbody cite {
+  font-family: "Lato, Light 300";
+  font-size: 18px;
+  font-weight: lighter;
+}
+tbody .preview-text {
+  font-family: "Lato Light 300";
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.side-bar {
+  width: 28.5%;
+  float: left;
+  margin-left: 30px;
+}
+.side-bar a {
+  text-decoration: none;
+  color: rgb(73, 71, 71);
+}
+.side-bar .side-content {
+  width: 95%;
+  border: 1px grey;
+
+  margin: 15px 2px;
+  border-radius: 0px 10px;
+  box-shadow: 8px 8px 20px 0px rgba(20, 19, 19, 0.2);
+  padding: 10px 20px;
+  font-size: 18px;
+  line-height: 50px;
+}
+.side-content tr:hover {
+  background-color: #d1d2d4;
+  color: #fff;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  line-height: 20px;
+  background-color: rgb(54, 181, 231);
+  font-size: 15px;
+  border: grey solid 1px;
+}
+.footer h6 {
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+.quick-links .title {
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(65, 60, 60);
+}
+.footer p {
+  color: rgb(65, 60, 60);
+}
+.footer a:hover {
+  color: white;
+}
+.footer .About {
+  width: 60%;
+  position: relative;
+  left: 5px;
+  bottom: 0px;
+  top: 30px;
+  text-align: justify;
+}
+
+.footer .quick-links {
+  position: fixed;
+  right: 450px;
+  bottom: 5px;
+  top: 710px;
+  padding: 10px;
+}
+
+.copyright-text {
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+  width: 400px;
+  margin: 0;
+}
