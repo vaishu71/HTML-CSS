@@ -226,7 +226,7 @@ tbody .preview-text {
 .copyright-text {
   position: fixed;
   bottom: 2px;
-  right: 2px;
+  right: 0px;
   width: 400px;
   margin: 0;
 }
